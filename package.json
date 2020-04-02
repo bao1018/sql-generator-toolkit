@@ -1,0 +1,19 @@
+{
+  "name": "sql-generator-toolkit",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Jeremy Bao"
+  },
+"scripts": {
+  "build": "rm -rf dist && tsc",
+  "start": "rm -rf dist && tsc && node dist/index.js"
+},
+"repository": {
+  "type": "git",
+  "url": "git@github.com:bao1018/sql-generator-toolkit.git"
+},
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
